@@ -22,6 +22,10 @@ const myRouter:Routes=[
   {
     path:"galary",
     component:GalaryComponent
+  },
+  {
+    path:"about",
+    component:AboutComponent
   }
  
 ]
