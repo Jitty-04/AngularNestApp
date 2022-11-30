@@ -17,7 +17,7 @@ export class EmployeeloginComponent {
     if(this.id=="1122" && this.password=="12345"){
       
       
-      this.route.navigate(["adminhome"])
+      this.route.navigate(["/emphome"])
     }
     else{
       this.id=""

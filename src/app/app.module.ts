@@ -21,6 +21,7 @@ import { EmpRegisterComponent } from './emp-register/emp-register.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
 import { Nav3Component } from './nav3/nav3.component';
 import { AddCourseComponent } from './add-course/add-course.component';
+import { EmphomeComponent } from './emphome/emphome.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -69,7 +70,12 @@ const myRouter:Routes=[
   {
     path:"addc",
     component:AddCourseComponent
+  },
+  {
+    path:"emphome",
+    component:EmphomeComponent
   }
+
  
 ]
 
@@ -90,7 +96,8 @@ const myRouter:Routes=[
     EmpRegisterComponent,
     AddfriendComponent,
     Nav3Component,
-    AddCourseComponent
+    AddCourseComponent,
+    EmphomeComponent
   ],
   imports: [
     BrowserModule,
