@@ -1,22 +1,31 @@
 <app-nav></app-nav>
+<style>
+    .bgm    {
+            background-image:url('https://img.freepik.com/free-photo/businessman-pointing-his-presentation-futuristic-digital-screen_53876-102617.jpg?size=626&ext=jpg&ga=GA1.2.1805897780.1669816626')
+    }
+    </style>
+<div class="bgm" style="height:700px">
 <div class="container">
     <div class="row g-3">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-            <label for="" class="form-label"><h1>ADMINISTRATION LOGIN</h1></label>
+            <label for="" class="form-label"><h1><b>ADMINISTRATION LOGIN</b></h1></label>
         
         </div>
         <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-            <label for="" class="form-label">UserName</label>
+            <label for="" class="form-label"><h3>Username</h3></label>
             <input name="username" [(ngModel)]="username" type="text" class="form-control">
         </div>
         <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-             <label for="" class="form-label">password</label>
+             <label for="" class="form-label"><h3>Password</h3></label>
              <input name="password" [(ngModel)]="password"   type="password" class="form-control">&nbsp;
         </div>
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <button (click)="readValues()" class="btn btn-success">Login</button>
         </div>
+        
+
        
 
     </div>
+</div>
 </div>

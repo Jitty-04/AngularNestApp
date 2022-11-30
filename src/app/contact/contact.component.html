@@ -1,11 +1,18 @@
 <app-nav></app-nav>
+<style>
+.bgm    {
+        background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLCcsy8IIQd0_wTB8nT8Q-XVNRH2HDG_gzl2GMuaON2WbI2xpmJ-gKpsXAEwk24nTQUYw&usqp=CAU')
+}
+</style>
+<div class="bgm">
 <div class="container">
+
+
     <div class="row">
         <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
             <div class="row g-3">
-               
-                
-                <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
+            
+<div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
                     <label for="" class="form-label"><h1>Write Us</h1></label>
                 </div>
 
@@ -13,27 +20,27 @@
                     
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <label for="" class="form-label">Name</label>
+                <label for="" class="form-label"><h3>Name</h3></label>
                 <input name="name" [(ngModel)]="name" type="text" class="form-control">
             </div>
             <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <label for="" class="form-label">Designation</label>
+                <label for="" class="form-label"><h3>Designation</h3></label>
                 <input name="designation" [(ngModel)]="designation" type="text" class="form-control">
             </div>
             <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <label for="" class="form-label">Company Name</label>
+                <label for="" class="form-label"><h3>Company Name</h3></label>
                 <input name="companyname" [(ngModel)]="companyname" type="text" class="form-control">
             </div>
             <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <label for="" class="form-label">Email</label>
+                <label for="" class="form-label"><h3>Email</h3></label>
                 <input name="email"[(ngModel)]="email" type="email" class="form-control">
             </div>
             <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
-                <label for="" class="form-label">Mobile Number</label>
+                <label for="" class="form-label"><h3>Mobile Number</h3></label>
                 <input name="mobile" [(ngModel)]="mobile" type="number" class="form-control">
             </div>
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                <label for="" class="form-label">Subject</label>
+                <label for="" class="form-label"><h3>Subject</h3></label>
                 <textarea name=" subject" [(ngModel)]=" subject" id="" cols="30" rows="10" class="form-control"></textarea>
             </div>
             <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
@@ -45,4 +52,5 @@
 
         </div>
     </div>
+</div>
 </div>
