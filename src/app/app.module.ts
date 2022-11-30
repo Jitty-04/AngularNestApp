@@ -18,6 +18,7 @@ import { ViewCourseComponent } from './view-course/view-course.component';
 import {HttpClientModule} from '@angular/common/http';
 import { EmployeeloginComponent } from './employeelogin/employeelogin.component';
 import { EmpRegisterComponent } from './emp-register/emp-register.component';
+import { AddfriendComponent } from './addfriend/addfriend.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -76,7 +77,8 @@ const myRouter:Routes=[
     FriendsViewComponent,
     ViewCourseComponent,
     EmployeeloginComponent,
-    EmpRegisterComponent
+    EmpRegisterComponent,
+    AddfriendComponent
   ],
   imports: [
     BrowserModule,
