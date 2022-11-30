@@ -20,6 +20,7 @@ import { EmployeeloginComponent } from './employeelogin/employeelogin.component'
 import { EmpRegisterComponent } from './emp-register/emp-register.component';
 import { AddfriendComponent } from './addfriend/addfriend.component';
 import { Nav3Component } from './nav3/nav3.component';
+import { AddCourseComponent } from './add-course/add-course.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -64,6 +65,10 @@ const myRouter:Routes=[
   {
     path:"addf",
     component:AddfriendComponent
+  },
+  {
+    path:"addc",
+    component:AddCourseComponent
   }
  
 ]
@@ -84,7 +89,8 @@ const myRouter:Routes=[
     EmployeeloginComponent,
     EmpRegisterComponent,
     AddfriendComponent,
-    Nav3Component
+    Nav3Component,
+    AddCourseComponent
   ],
   imports: [
     BrowserModule,
