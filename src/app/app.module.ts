@@ -14,6 +14,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { NavadminComponent } from './navadmin/navadmin.component';
 import { FriendsViewComponent } from './friends-view/friends-view.component';
+import { ViewCourseComponent } from './view-course/view-course.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -53,7 +54,8 @@ const myRouter:Routes=[
     AdminLoginComponent,
     AdminhomeComponent,
     NavadminComponent,
-    FriendsViewComponent
+    FriendsViewComponent,
+    ViewCourseComponent
   ],
   imports: [
     BrowserModule,
