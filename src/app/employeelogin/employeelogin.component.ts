@@ -2,30 +2,28 @@ import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-admin-login',
-  templateUrl: './admin-login.component.html',
-  styleUrls: ['./admin-login.component.css']
+  selector: 'app-employeelogin',
+  templateUrl: './employeelogin.component.html',
+  styleUrls: ['./employeelogin.component.css']
 })
-export class AdminLoginComponent {
-
-  username=""
+export class EmployeeloginComponent {
+  id=""
   password=""
   constructor(private route:Router){}
   readValues=()=>
   {
-    let data:any={"username":this.username,"password":this.password}
+    let data:any={"id":this.id,"password":this.password}
     console.log(data)
-    if(this.username=="admin" && this.password=="nestdigital"){
+    if(this.id=="1122" && this.password=="12345"){
       
       
       this.route.navigate(["adminhome"])
     }
     else{
+      this.id=""
       this.password=""
-      this.username=""
       alert("Invalid Credentials")
     }
   }
- 
 
 }
