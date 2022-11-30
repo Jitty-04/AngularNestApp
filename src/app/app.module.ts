@@ -13,6 +13,7 @@ import { AboutComponent } from './about/about.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
 import { NavadminComponent } from './navadmin/navadmin.component';
+import { FriendsViewComponent } from './friends-view/friends-view.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -51,7 +52,8 @@ const myRouter:Routes=[
     AboutComponent,
     AdminLoginComponent,
     AdminhomeComponent,
-    NavadminComponent
+    NavadminComponent,
+    FriendsViewComponent
   ],
   imports: [
     BrowserModule,
