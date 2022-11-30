@@ -12,6 +12,7 @@ import { GalaryComponent } from './galary/galary.component';
 import { AboutComponent } from './about/about.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { AdminhomeComponent } from './adminhome/adminhome.component';
+import { NavadminComponent } from './navadmin/navadmin.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -49,7 +50,8 @@ const myRouter:Routes=[
     GalaryComponent,
     AboutComponent,
     AdminLoginComponent,
-    AdminhomeComponent
+    AdminhomeComponent,
+    NavadminComponent
   ],
   imports: [
     BrowserModule,
