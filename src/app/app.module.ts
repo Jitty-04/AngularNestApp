@@ -8,6 +8,7 @@ import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
+import { GalaryComponent } from './galary/galary.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -25,7 +26,8 @@ const myRouter:Routes=[
     AppComponent,
     HomeComponent,
     NavComponent,
-    ContactComponent
+    ContactComponent,
+    GalaryComponent
   ],
   imports: [
     BrowserModule,
