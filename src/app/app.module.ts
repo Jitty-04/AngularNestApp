@@ -1,4 +1,4 @@
-import { NgModule } from '@angular/core';
+import { Component, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
 
@@ -11,6 +11,7 @@ import { FormsModule } from '@angular/forms';
 import { GalaryComponent } from './galary/galary.component';
 import { AboutComponent } from './about/about.component';
 import { AdminLoginComponent } from './admin-login/admin-login.component';
+import { AdminhomeComponent } from './adminhome/adminhome.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -31,6 +32,10 @@ const myRouter:Routes=[
   {
     path:"adminlogin",
     component:AdminLoginComponent
+  },
+  {
+    path:"adminhome",
+    component:AdminhomeComponent
   }
  
 ]
@@ -43,7 +48,8 @@ const myRouter:Routes=[
     ContactComponent,
     GalaryComponent,
     AboutComponent,
-    AdminLoginComponent
+    AdminLoginComponent,
+    AdminhomeComponent
   ],
   imports: [
     BrowserModule,
