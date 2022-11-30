@@ -16,6 +16,7 @@ import { NavadminComponent } from './navadmin/navadmin.component';
 import { FriendsViewComponent } from './friends-view/friends-view.component';
 import { ViewCourseComponent } from './view-course/view-course.component';
 import {HttpClientModule} from '@angular/common/http';
+import { EmployeeloginComponent } from './employeelogin/employeelogin.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -48,6 +49,10 @@ const myRouter:Routes=[
   {
     path:"viewCourse",
     component:ViewCourseComponent
+  },
+  {
+    path:"emplogin",
+    component:EmployeeloginComponent
   }
  
 ]
@@ -64,7 +69,8 @@ const myRouter:Routes=[
     AdminhomeComponent,
     NavadminComponent,
     FriendsViewComponent,
-    ViewCourseComponent
+    ViewCourseComponent,
+    EmployeeloginComponent
   ],
   imports: [
     BrowserModule,
