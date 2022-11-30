@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { FormsModule } from '@angular/forms';
 import { GalaryComponent } from './galary/galary.component';
 import { AboutComponent } from './about/about.component';
+import { AdminLoginComponent } from './admin-login/admin-login.component';
 const myRouter:Routes=[
   {
     path:"",
@@ -26,6 +27,10 @@ const myRouter:Routes=[
   {
     path:"about",
     component:AboutComponent
+  },
+  {
+    path:"adminlogin",
+    component:AdminLoginComponent
   }
  
 ]
@@ -37,7 +42,8 @@ const myRouter:Routes=[
     NavComponent,
     ContactComponent,
     GalaryComponent,
-    AboutComponent
+    AboutComponent,
+    AdminLoginComponent
   ],
   imports: [
     BrowserModule,
