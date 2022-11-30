@@ -17,6 +17,10 @@ const myRouter:Routes=[
   {
     path:"contact",
     component:ContactComponent
+  },
+  {
+    path:"galary",
+    component:GalaryComponent
   }
  
 ]
