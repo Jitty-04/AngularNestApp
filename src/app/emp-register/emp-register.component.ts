@@ -59,6 +59,25 @@ export class EmpRegisterComponent {
     }
     else{
       alert("Password and ConfirmPassword doesn't match")
+      this.id=""
+  this.firstname=""
+  this.lastname=""
+  this.houseno=""
+  this.streetname=""
+  this.pincode=""
+  this.district=""
+  this.state=""
+  this.country=""
+  this.mobile=""
+  this.email=""
+  this.parent=""
+  this.gender=""
+  this.degree=""
+  this.exp=""
+  this.join=""
+  this.user=""
+  this.password=""
+  this.confirm=""
     }
   }
 }
