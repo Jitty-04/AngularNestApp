@@ -14,15 +14,13 @@
                  </tr>
                 </thead>
                 <tbody>
-                  <tr *ngFor="let i of data">
-                    <td>{{i._id}}</td>
-                    <td>{{i.courseTitle}}</td>
-                    <td>{{i.courseDescription}}</td>
-                    <td>{{i.courseDate}}</td>
-                    <td>{{i.courseDuration}}</td>
-                    <td>{{i.courseVenue}}</td>
-                
-                  </tr>
+                  <ng-container *ngIf="loading; then loadingScreen; else dataScreen"></ng-container>
+                  <ng-template #loadingScreen>
+                   <p>loading</p>
+                  </ng-template>
+                  <ng-template #dataScreen>
+                    <p>data</p>
+                  </ng-template>
                  
                 </tbody>
               </table>
