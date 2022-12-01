@@ -83,7 +83,10 @@
         </div>
         <div class="col col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
             <label for="" class="form-label"><h3>Country</h3></label>
-            <input name="country" [(ngModel)]="country" type="text" class="form-control">
+            <select name="country" [(ngModel)]="country" id="" class="form-select">
+                <option value="India">India</option>
+                <option value="China">China</option>
+            </select>
         </div>
         <div class="col col-12 col-sm-6 col-lg-6 col-xl-6 col-xxl-6">
             <label for="" class="form-label"><h3>MobileNumber</h3></label>
